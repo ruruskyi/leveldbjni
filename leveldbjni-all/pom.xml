@@ -74,6 +74,18 @@
     </dependency>
     <dependency>
       <groupId>org.fusesource.leveldbjni</groupId>
+      <artifactId>leveldbjni-solaris32</artifactId>
+      <version>1.8</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.leveldbjni</groupId>
+      <artifactId>leveldbjni-solaris64</artifactId>
+      <version>1.8</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.leveldbjni</groupId>
       <artifactId>leveldbjni-win32</artifactId>
       <version>1.8</version>
       <scope>provided</scope>

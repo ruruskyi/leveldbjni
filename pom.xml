@@ -246,6 +246,8 @@
         <module>leveldbjni-osx</module>
         <module>leveldbjni-linux32</module>
         <module>leveldbjni-linux64</module>
+        <module>leveldbjni-solaris32</module>
+        <module>leveldbjni-solaris64</module>
         <module>leveldbjni-win32</module>
         <module>leveldbjni-win64</module>
         <module>leveldbjni-all</module>
@@ -276,6 +278,20 @@
       <id>linux64</id>
       <modules>
         <module>leveldbjni-linux64</module>
+      </modules>
+    </profile>
+
+    <profile>
+      <id>solaris32</id>
+      <modules>
+        <module>leveldbjni-solaris32</module>
+      </modules>
+    </profile>
+
+    <profile>
+      <id>solaris64</id>
+      <modules>
+        <module>leveldbjni-solaris64</module>
       </modules>
     </profile>
 
